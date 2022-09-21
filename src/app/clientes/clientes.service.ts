@@ -12,7 +12,7 @@ export class ClientesService {
 
   getClientes()
   {
-   ///return this.http.get("http://apis.integracion.com/api/v1/clientes");
+   return this.http.get("http://apis.integracion.com/api/v1/clientes");
   }
 
   postClientes()
